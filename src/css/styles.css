@@ -1,0 +1,36 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  height: 33.3vh;
+}
+.wrapper_flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: chartreuse;
+}
+.wrapper_block {
+  position: relative;
+  background-color: magenta;
+}
+.wrapper_inline {
+  line-height: 33.3vh;
+  text-align: center;
+  background-color: aqua;
+}
+
+.block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*# sourceMappingURL=styles.css.map */

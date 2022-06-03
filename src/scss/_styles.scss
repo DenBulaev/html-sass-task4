@@ -1,0 +1,38 @@
+$container-height: 33.3vh;
+
+body,html {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  height: $container-height;
+
+  &_flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: chartreuse;
+  }
+
+  &_block {
+    position: relative;
+    background-color: magenta;
+  }
+
+  &_inline {
+    line-height: $container-height;
+    text-align: center;
+    background-color: aqua;
+  }
+}
+
+.block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
